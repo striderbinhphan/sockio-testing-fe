@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import React, { useContext, useEffect, useRef, useState } from 'react';
+import React, {  useEffect,  useState } from 'react';
 import './App.css';
 import io from "socket.io-client";
 let socket;
